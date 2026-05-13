@@ -12,7 +12,15 @@ Together, they form a complete pipeline: **research the topic -> write the post 
 
 ## Installing
 
-### Via clawhub CLI (recommended)
+### Via skills.sh (any agent runtime)
+
+Installs all 3 skills into Claude Code, Cursor, Codex, Gemini CLI, GitHub Copilot, and 50+ other runtimes at once:
+
+```bash
+npx skills add ratamaha-git/publishing-skills
+```
+
+### Via clawhub CLI (Claude / OpenClaw runtimes)
 
 ```bash
 npm i -g clawhub
